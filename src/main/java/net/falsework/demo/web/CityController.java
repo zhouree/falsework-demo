@@ -18,7 +18,7 @@ public class CityController {
 	@RequestMapping(value="/create")
     City create() {
 		City city = new City("Wu Han","Hubei");
-		cityService.save(city);
+		cityService.create(city);
         return city;
     }
 
