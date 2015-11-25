@@ -1,4 +1,4 @@
-package net.falsework.demo.data;
+package net.falsework.demo.city;
 
 import org.springframework.stereotype.Repository;
 
